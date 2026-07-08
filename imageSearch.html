@@ -2,39 +2,32 @@
 <html lang="en">
 
 <head>
-    <title>Search</title>
+    <title>Google Search</title>
 </head>
 
 <body>
     <div class="images">
-        <a class="images" href="imageSearch.html" aria-label="Search for Images">Images</a>
+        <a href="index.html" aria-label="Search for Images">Google Search</a>
 
         <a href="index.html" aria-label="Search for Images">Advance Search</a>
     </div>
+
     <div class="main">
-<div class="search">
-        <form action="https://www.google.com/search">
-            <a class="logo" href="https://www.google.com">
-                <span class="g1">G</span><span class="o1">o</span><span class="o2">o</span><span
-                    class="g2">g</span><span class="l">l</span><span class="e">e</span>
-            </a>
-            <input type="text" class="custom-input" name="q">
-            <div>
-                <input class="button" type="submit" value="Google Search">
+        <div class="search">
+            <form action="https://www.google.com/images">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/3840px-Google_Images_2015_logo.svg.png"
+                    alt="Google Images">
+                <input type="text" class="custom-input" name="q">
+                <div>
+                    <input class="button" type="submit" value="Search Image">
+                    
+            </form>
 
-                <a class="button" href="https://doodles.google/">I'm Feeling Lucky</a>
-            </div>
 
-        </form>
-    </div>
-
-    </div>
-    
-    
 </body>
 
-</html> 
-        
+</html>
+
 <style>
     .main {
         margin: 0;
@@ -45,6 +38,10 @@
         align-items: center;
         font-family: Arial, sans-serif;
         background-color: #ffffff;
+    }
+
+    img {
+        height: 92px;
     }
 
     .images {
@@ -62,7 +59,7 @@
         margin: 5px;
     }
 
-    .images:hover {
+    a:hover {
         text-decoration: underline;
     }
 
@@ -81,45 +78,10 @@
         font-size: 80px;
         font-weight: 500;
         letter-spacing: -2.5px;
-        margin: 0 0 40px 0;
+        margin: 0 0 10px 0;
         user-select: none;
     }
 
-    .g1 {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #4285F4;
-    }
-
-    .o1 {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #EA4335;
-    }
-
-    .o2 {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #FBBC05;
-    }
-
-    .g2 {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #4285F4;
-    }
-
-    .l {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #34A853;
-    }
-
-    .e {
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-        color: #EA4335;
-    }
 
     .custom-input {
         width: 600px;
